@@ -11,7 +11,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "classnames": "^2.2.3",
-    "react": "^0.14.5"
+    "react": "^0.14.6"
   },
   "devDependencies": {
     "babel": "^6.3.26",
