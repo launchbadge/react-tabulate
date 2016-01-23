@@ -2,7 +2,7 @@ import React from "react";
 import cx from "classnames";
 import TableRow from "./row";
 
-export class Table extends React.Component {
+export default class Table extends React.Component {
   render() {
     const columns = Array.isArray(this.props.children)
       ? this.props.children : [this.props.children];
