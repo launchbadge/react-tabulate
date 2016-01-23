@@ -1,2 +1,7 @@
 import Table from "./table";
-export default Table;
+import Column from "./column";
+
+export Table from "./table";
+export Column from "./column";
+
+export default {Table, Column};
