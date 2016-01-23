@@ -1,0 +1,34 @@
+{
+  "name": "react-tabulate",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "keywords": [
+    "table",
+    "react",
+    "component"
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "react": "^0.14.5"
+  },
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.3.26",
+    "babel-preset-launchbadge-browser": "git://github.com/launchbadge/babel-preset-launchbadge-browser.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/launchbadge/react-tabulate.git"
+  },
+  "author": "LaunchBadge <contact@launchbadge.com>",
+  "bugs": {
+    "url": "https://github.com/launchbadge/react-tabulate/issues"
+  },
+  "homepage": "https://github.com/launchbadge/react-tabulate#readme",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  }
+}
